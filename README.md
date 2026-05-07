@@ -8,6 +8,7 @@ Since execution takes long time code is splitted in files to simplify.
 * KMEANS-pre-processing.ipynb pre-processing for clustering task using KMEANS
 * HDBSCAN-pre-processing.ipynb contains pre-processing for clustering task using HDBSCAN this is different from KMEANS because we need to use a subsample so that executing HDBSCAN is feasible
 * unsupervised-KMEANS.ipynb contains clustering with KMEANS along with cluster analysis
+* unsupervised-KMEANS-with_long_comments.ipynb contains clustering with KMEANS along with cluster analysis but without comment segmentations (comments are full length) this is just to explain why the segmentation step was performed
 * unsupervised-HDBSCAN.ipynb contains clustering with HDBSCAN along with cluster analysis
 * LanguageModelsExploration.ipynb supervised tasks using FFNN using as data the concatenation of PCA‑reduced subreddit‑fraction features, and DistilBERT embeddings
 * LanguageModelsExplorationJustEmbeddings.ipynb supervised tasks using FFNN using as data DistilBERT embeddings
